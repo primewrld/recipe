@@ -1,0 +1,125 @@
+body{
+   background-color: white;
+   max-width: 323px;
+}
+main{
+    width: 325px;
+}
+.head img{
+ width: 340px;
+ font-family: "Outfit";
+}
+h1, h2{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.head p, li, p{
+    font-size: 20px;
+    margin-left: 30px;
+    color: hsl(30, 10%, 34%);
+}
+.secs{
+    border: none;
+    background-color:  hsl(330, 100%, 98%);
+    ;
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.secs li, li{
+    padding: 5px;
+    font-size: 20px;
+}
+.secs ul{
+    padding-bottom: 15px;
+}
+.secs h3, .secs li::marker{
+    padding-top: 20px;
+    padding-left: 40px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+.tas{
+    display: flex;
+}
+.tas li{
+    list-style: none;
+}
+span{
+    color: hsl(24, 5%, 18%);
+    font-size: 20px;
+    font-weight: 800;
+}
+#p2 li, h2, #nu, li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+}
+
+/*DEsktop view*/
+
+@media only screen and (min-width: 500px) {
+
+body{
+    background-color:  hsl(30, 54%, 90%);
+}
+  main{
+    margin-left: 350px;
+    background-color: white;
+    display: block;
+    width: 600px;
+    border-radius: 20px;
+    font-family: "Outfit";
+    font-size: 15px;
+  }  
+  .head img{
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 15px;
+   }
+   h1, h2{
+       font-size: 30px;
+       margin-left: 30px;
+   }
+   .head p{
+       font-size: 15px;
+       margin-left: 30px;
+       color: hsl(30, 10%, 34%);
+   }
+   .secs{
+    border: none;
+    background-color:  hsl(330, 100%, 98%);
+    ;
+    width: 550px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.secs li, li, p{
+    padding: 5px;
+    font-size: 15px;
+}
+.secs ul{
+    padding-bottom: 15px;
+}
+.secs h3, .secs li::marker{
+    padding-top: 20px;
+    padding-left: 40px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+.tas{
+    display: flex;
+    padding-inline: 20px;
+    gap: 150px;
+}
+#p2 li{
+    color:  hsl(14, 45%, 36%);;
+}
+span{
+    color: hsl(24, 5%, 18%);
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+}
